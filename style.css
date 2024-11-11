@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Seção principal */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#calcular {
+    text-align: center;
+}
+
+#calcular input[type="number"] {
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+#calcular button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#calcular button:hover {
+    background-color: #555;
+}
+
+#resultado img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado figure {
+    text-align: center;
+    margin: 5px;
+}
+
+.graus {
+    padding: 20px;
+}
+
+.graus h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.graus p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}
